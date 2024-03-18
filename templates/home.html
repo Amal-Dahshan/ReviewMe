@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Flask Blog</title>
+</head>
+<body>
+	{% for post in posts %}
+	<h1> {{ post.title }} </h1>
+	<p>By <b>{{ post.author }}</b> on {{ post.date_posted }}</p>
+			<p> {{ post.content }} </p>
+	{% endfor %}
+</body>
+</html>
