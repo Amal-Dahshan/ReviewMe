@@ -19,15 +19,19 @@ body {
   
   .navbar1 {
       top: 0;
-      padding: 5px 0 5px 0;
+      padding: 1px 0 3px 0;
       background-color: white;
   }
-  
+
+  #logo {
+      font-weight: bold;
+  }
+
   .navbar1 a {
   color: teal;
   }
   .navbar2 {
-      top: 33px; /* Adjust this value to position the second navbar */
+      top: 45px; /* Adjust this value to position the second navbar */
       padding: 5px 0 5px 0;
       background-color: cadetblue;
   }
@@ -36,15 +40,21 @@ body {
    color: white;
   }
   .content {
-    margin-top: 80px; /* Adjust this value to match the height of your navbar */
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
   }
-  
   .posts {
-  border: solid 2px cadetblue;
-  background-color: white;
-  color: black;
-  text-align: center ;
-  width: 75%;
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid cadetblue;
+    border-radius: 3px;
+    margin-bottom: 100px;  
+    width: 50%;
+  }
+
+  article {
+    margin-bottom: 20px;
   }
   footer {
    bottom: 0;

@@ -36,12 +36,18 @@ def home():
 
 @app.route("/movies")
 def movies():
-    return render_template("movies.html")
+    return render_template("movies.html", posts=posts)
 
 
 @app.route("/appliances")
 def appliances():
-    return render_template("appliances.html")
+    return render_template("appliances.html", posts=posts)
+
+
+@app.route("/books")
+def books():
+    return render_template("books.html", posts=posts)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
