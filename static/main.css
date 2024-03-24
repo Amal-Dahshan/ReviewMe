@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: teal;
+  }
+  
+  .navbar {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: white;
+      color: teal;
+      position: fixed;
+      width: 100%;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  .navbar1 {
+      top: 0;
+      padding: 5px 0 5px 0;
+      background-color: white;
+  }
+  
+  .navbar1 a {
+  color: teal;
+  }
+  .navbar2 {
+      top: 33px; /* Adjust this value to position the second navbar */
+      padding: 5px 0 5px 0;
+      background-color: cadetblue;
+  }
+  
+  .navbar2 a {
+   color: white;
+  }
+  .content {
+    margin-top: 80px; /* Adjust this value to match the height of your navbar */
+  }
+  
+  .posts {
+  border: solid 2px cadetblue;
+  background-color: white;
+  color: black;
+  text-align: center ;
+  width: 75%;
+  }
+  footer {
+   bottom: 0;
+   position: fixed;
+   background-color: cadetblue;
+   width: 100%;
+  }
