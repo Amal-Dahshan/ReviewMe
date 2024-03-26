@@ -1,8 +1,24 @@
 body {
     margin: 0;
-    background-color: teal;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('https://media.istockphoto.com/id/1451079337/photo/customer-review-good-rating-concept-hand-pressing-user-and-five-star-icon-on-visual-screen.jpg?s=612x612&w=0&k=20&c=KftvGEGrkQRLO_dqRyHmMW0EDFraAOjD9lrpMKpQR1w=');
   }
   
+.page-title {
+  margin: 5px 0 5px 0;
+  border-radius: 50px;
+  height: 350px;
+  width: 600px;
+  color: teal;
+  
+ 
+}
+
+.books {
+  background-image: url('https://media.istockphoto.com/id/583816330/photo/diverse-group-of-friends-discussing-a-book-in-library.webp?s=1024x1024&w=is&k=20&c=H-qVf3OiNGJwTWrOUjGOT0U_Ht1XBJdK2nPXPSffzHc=');
+}
   .navbar {
       display: flex;
       justify-content: space-around;
